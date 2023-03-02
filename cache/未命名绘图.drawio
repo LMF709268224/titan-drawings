@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T06:39:44.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="d4-NyKW3K_ZEp_7KxCv-" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T07:42:23.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="9YYnYR6xZWaj2yy18mJS" version="20.8.23" type="github">
   <diagram name="第 1 页" id="QHH_X7q2ztNWC-sLg0Y3">
     <mxGraphModel dx="2901" dy="2003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,6 +52,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S5eZa1ermERS1K-_M2My-8" target="S5eZa1ermERS1K-_M2My-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-72" value="n次失败后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S5eZa1ermERS1K-_M2My-71">
+          <mxGeometry x="0.1462" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="S5eZa1ermERS1K-_M2My-8" value="成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-200" y="180" width="100" height="100" as="geometry" />
         </mxCell>
@@ -94,6 +102,14 @@
         </mxCell>
         <mxCell id="S5eZa1ermERS1K-_M2My-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S5eZa1ermERS1K-_M2My-46" target="S5eZa1ermERS1K-_M2My-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S5eZa1ermERS1K-_M2My-46" target="S5eZa1ermERS1K-_M2My-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-77" value="n次失败后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S5eZa1ermERS1K-_M2My-76">
+          <mxGeometry x="-0.3371" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="S5eZa1ermERS1K-_M2My-46" value="节点不足&lt;br&gt;部分节点cache失败等其他问题" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="140" y="520" width="100" height="60" as="geometry" />
@@ -141,6 +157,14 @@
         <mxCell id="S5eZa1ermERS1K-_M2My-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S5eZa1ermERS1K-_M2My-58" target="S5eZa1ermERS1K-_M2My-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S5eZa1ermERS1K-_M2My-58" target="S5eZa1ermERS1K-_M2My-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-83" value="n次失败后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S5eZa1ermERS1K-_M2My-82">
+          <mxGeometry x="-0.4051" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="S5eZa1ermERS1K-_M2My-58" value="节点不足&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;部分节点cache失败等其他问题" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="150" y="880" width="100" height="60" as="geometry" />
         </mxCell>
@@ -158,6 +182,48 @@
         </mxCell>
         <mxCell id="S5eZa1ermERS1K-_M2My-68" value="边缘节点下线或者需要更多的边缘节点备份" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-556" y="695" width="143" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S5eZa1ermERS1K-_M2My-70" target="S5eZa1ermERS1K-_M2My-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-74" value="重试" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S5eZa1ermERS1K-_M2My-73">
+          <mxGeometry x="-0.3459" y="4" relative="1" as="geometry">
+            <mxPoint x="41" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-70" value="status 1 fail" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="270" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.97;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S5eZa1ermERS1K-_M2My-75" target="S5eZa1ermERS1K-_M2My-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="384" />
+              <mxPoint x="210" y="384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-79" value="重试" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S5eZa1ermERS1K-_M2My-78">
+          <mxGeometry x="-0.7158" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-75" value="status 2 fail" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="270" y="355" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.97;entryY=0.32;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S5eZa1ermERS1K-_M2My-81" target="S5eZa1ermERS1K-_M2My-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="722" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-85" value="重试" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S5eZa1ermERS1K-_M2My-84">
+          <mxGeometry x="-0.6425" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5eZa1ermERS1K-_M2My-81" value="status 3 fail" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="270" y="685" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
