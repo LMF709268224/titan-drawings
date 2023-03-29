@@ -1,226 +1,159 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T02:46:28.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FNRuLpM25aho4uzRJDo2" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T03:17:31.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="sbJ4ipwWMcz6F2IAWomN" version="21.1.1" type="github">
   <diagram name="第 1 页" id="QHH_X7q2ztNWC-sLg0Y3">
-    <mxGraphModel dx="2120" dy="1902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3178" dy="1902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dh0dQZZecO0bPqkRILVr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S5eZa1ermERS1K-_M2My-1" target="dh0dQZZecO0bPqkRILVr-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="S5eZa1ermERS1K-_M2My-1" value="FindSeed&lt;br&gt;挑选出第一个候选节点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="-100" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-1" target="S5eZa1ermERS1K-_M2My-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-1" value="UndefinedState" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="-240" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.071;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-3" target="dh0dQZZecO0bPqkRILVr-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-9" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-8">
-          <mxGeometry x="-0.154" y="3" relative="1" as="geometry">
-            <mxPoint x="-4" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-3" target="dh0dQZZecO0bPqkRILVr-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-14" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-13">
-          <mxGeometry x="-0.3" y="-1" relative="1" as="geometry">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-67" value="start" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="dh0dQZZecO0bPqkRILVr-68">
+          <mxGeometry y="20" width="80" relative="1" as="geometry">
+            <mxPoint x="-930" y="-160" as="sourcePoint" />
+            <mxPoint x="-930" y="-70" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-3" value="成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="70" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-7" target="S5eZa1ermERS1K-_M2My-1">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-68" target="dh0dQZZecO0bPqkRILVr-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-11" value="重试三次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-10">
-          <mxGeometry x="-0.4053" relative="1" as="geometry">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-68" target="dh0dQZZecO0bPqkRILVr-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-98" value="挑选失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-87">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-7" value="SeedFailed&lt;br&gt;挑选不到候选节点或者拉取种子资源失败" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="140" y="40" width="140" height="140" as="geometry" />
+        <mxCell id="dh0dQZZecO0bPqkRILVr-68" value="FindSeed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;挑选出第一个候选节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-12" target="dh0dQZZecO0bPqkRILVr-15">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-69" target="dh0dQZZecO0bPqkRILVr-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-12" value="WaitSeed&lt;br&gt;等待候选节点拉取种子资源" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="220" width="140" height="140" as="geometry" />
+        <mxCell id="dh0dQZZecO0bPqkRILVr-101" value="拉取资源失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-75">
+          <mxGeometry x="-0.2727" y="-1" relative="1" as="geometry">
+            <mxPoint x="7" y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-15" target="dh0dQZZecO0bPqkRILVr-7">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-69" target="dh0dQZZecO0bPqkRILVr-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-18" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-17">
-          <mxGeometry x="-0.5875" relative="1" as="geometry">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-69" value="WaitSeed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;等待候选节点拉取种子资源" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-70" target="dh0dQZZecO0bPqkRILVr-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-70" target="dh0dQZZecO0bPqkRILVr-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-97" value="挑选失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-89">
+          <mxGeometry x="-0.1429" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-15" target="dh0dQZZecO0bPqkRILVr-19">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-70" value="FindCandidates&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;挑选更多候选节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-71" target="dh0dQZZecO0bPqkRILVr-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-21" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-20">
-          <mxGeometry x="-0.2571" y="-3" relative="1" as="geometry">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-100" value="重试三次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-76">
+          <mxGeometry x="0.1565" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-15" value="成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="400" width="100" height="100" as="geometry" />
+        <mxCell id="dh0dQZZecO0bPqkRILVr-71" value="SeedFailed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;挑选不到候选节点或者拉取种子资源失败" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-19" target="dh0dQZZecO0bPqkRILVr-22">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-72" target="dh0dQZZecO0bPqkRILVr-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-19" value="FindCandidates&lt;br&gt;挑选更多候选节点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="550" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-22" target="dh0dQZZecO0bPqkRILVr-24">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-72" target="dh0dQZZecO0bPqkRILVr-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-26" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-25">
-          <mxGeometry x="0.1615" y="3" relative="1" as="geometry">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-102" value="拉取资源失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-88">
+          <mxGeometry x="-0.22" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-22" target="dh0dQZZecO0bPqkRILVr-29">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-72" value="DistributeToCandidates&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;分发资源到更多候选节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-73" target="dh0dQZZecO0bPqkRILVr-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-31" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-30">
-          <mxGeometry x="-0.22" y="2" relative="1" as="geometry">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-73" target="dh0dQZZecO0bPqkRILVr-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-94" value="挑选失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-92">
+          <mxGeometry x="-0.2769" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-22" value="成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="730" width="100" height="100" as="geometry" />
+        <mxCell id="dh0dQZZecO0bPqkRILVr-73" value="FindEdges&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;挑选边缘节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-24" target="dh0dQZZecO0bPqkRILVr-19">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-80" target="dh0dQZZecO0bPqkRILVr-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-28" value="重试三次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-27">
-          <mxGeometry x="-0.187" y="1" relative="1" as="geometry">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-80" target="dh0dQZZecO0bPqkRILVr-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-103" value="拉取资源失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-91">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-24" value="CandidatesFailed&lt;br&gt;&lt;div&gt;挑选不到候选节点或者拉取资源失败&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="120" y="710" width="140" height="140" as="geometry" />
+        <mxCell id="dh0dQZZecO0bPqkRILVr-80" value="DistributeToEdges&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;分发资源到边缘节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-29" target="dh0dQZZecO0bPqkRILVr-32">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-81" target="dh0dQZZecO0bPqkRILVr-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-29" value="DistributeToCandidates&lt;br&gt;分发资源到更多候选节点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="890" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-32" target="dh0dQZZecO0bPqkRILVr-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-35" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-34">
-          <mxGeometry x="-0.4382" y="-2" relative="1" as="geometry">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-95" value="重试三次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-93">
+          <mxGeometry x="0.0091" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-32" target="dh0dQZZecO0bPqkRILVr-36">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-81" value="EdgesFailed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;挑选不到边缘节点或者拉取资源失败&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-82" target="dh0dQZZecO0bPqkRILVr-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-32" value="成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="1069" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-36" target="dh0dQZZecO0bPqkRILVr-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-36" value="FindEdges&lt;br&gt;挑选边缘节点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="1210" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-38" target="dh0dQZZecO0bPqkRILVr-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-44" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-41">
-          <mxGeometry x="-0.208" y="3" relative="1" as="geometry">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-99" value="重试三次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-90">
+          <mxGeometry x="0.0261" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-38" target="dh0dQZZecO0bPqkRILVr-45">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dh0dQZZecO0bPqkRILVr-82" value="CandidatesFailed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;挑选不到候选节点或者拉取资源失败&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-47" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-46">
-          <mxGeometry x="-0.2667" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-38" value="成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="1390" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-40" target="dh0dQZZecO0bPqkRILVr-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-43" value="重试三次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-42">
-          <mxGeometry x="-0.2512" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-40" value="EdgesFailed&lt;br&gt;&lt;div&gt;挑选不到边缘节点或者拉取资源失败&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1370" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-45" target="dh0dQZZecO0bPqkRILVr-48">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-45" value="DistributeToEdges&lt;br&gt;分发资源到边缘节点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="1530" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-48" target="dh0dQZZecO0bPqkRILVr-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-51" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-50">
-          <mxGeometry x="-0.4382" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-48" target="dh0dQZZecO0bPqkRILVr-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-54" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-53">
-          <mxGeometry x="-0.1647" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-48" value="成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="1710" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-52" target="S5eZa1ermERS1K-_M2My-1">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-83" target="dh0dQZZecO0bPqkRILVr-68">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-300" y="1940" />
-              <mxPoint x="-300" />
-              <mxPoint x="-230" />
-              <mxPoint x="-230" y="-30" />
+              <mxPoint x="-1060" y="730" />
+              <mxPoint x="-1060" y="-28" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-64" value="接收start事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-63">
-          <mxGeometry x="-0.8918" relative="1" as="geometry">
-            <mxPoint y="-14" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-52" value="Serving&lt;br&gt;资源缓存完毕，正在服务中" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="1870" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-59" target="S5eZa1ermERS1K-_M2My-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-280" y="-30" />
-              <mxPoint x="-280" y="-30" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-61" value="接受start事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-60">
-          <mxGeometry x="-0.1667" y="-2" relative="1" as="geometry">
+        <mxCell id="dh0dQZZecO0bPqkRILVr-109" value="start event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-108">
+          <mxGeometry x="-0.8886" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dh0dQZZecO0bPqkRILVr-59" value="Remove&lt;br&gt;删除资源记录" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-553" y="-100" width="140" height="140" as="geometry" />
+        <mxCell id="dh0dQZZecO0bPqkRILVr-83" value="Serving&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;资源缓存完毕，正在服务中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-104" target="dh0dQZZecO0bPqkRILVr-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-106" value="start event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dh0dQZZecO0bPqkRILVr-105">
+          <mxGeometry x="-0.24" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dh0dQZZecO0bPqkRILVr-104" value="Remove&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;删除资源记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
