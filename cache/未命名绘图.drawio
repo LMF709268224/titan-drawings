@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T02:44:59.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ezFlkmPe722uOtmQ04SG" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T02:46:28.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FNRuLpM25aho4uzRJDo2" version="21.1.1" type="github">
   <diagram name="第 1 页" id="QHH_X7q2ztNWC-sLg0Y3">
     <mxGraphModel dx="2120" dy="1902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,7 +150,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dh0dQZZecO0bPqkRILVr-38" value="成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="1420" width="100" height="100" as="geometry" />
+          <mxGeometry x="-200" y="1390" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dh0dQZZecO0bPqkRILVr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-40" target="dh0dQZZecO0bPqkRILVr-36">
           <mxGeometry relative="1" as="geometry" />
@@ -161,13 +161,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dh0dQZZecO0bPqkRILVr-40" value="EdgesFailed&lt;br&gt;&lt;div&gt;挑选不到边缘节点或者拉取资源失败&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1400" width="140" height="140" as="geometry" />
+          <mxGeometry x="100" y="1370" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="dh0dQZZecO0bPqkRILVr-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-45" target="dh0dQZZecO0bPqkRILVr-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dh0dQZZecO0bPqkRILVr-45" value="DistributeToEdges&lt;br&gt;分发资源到边缘节点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="1570" width="140" height="140" as="geometry" />
+          <mxGeometry x="-220" y="1530" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="dh0dQZZecO0bPqkRILVr-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-48" target="dh0dQZZecO0bPqkRILVr-40">
           <mxGeometry relative="1" as="geometry" />
@@ -186,14 +186,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dh0dQZZecO0bPqkRILVr-48" value="成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="1770" width="100" height="100" as="geometry" />
+          <mxGeometry x="-200" y="1710" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dh0dQZZecO0bPqkRILVr-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-52" target="S5eZa1ermERS1K-_M2My-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-300" y="1990" />
+              <mxPoint x="-300" y="1940" />
               <mxPoint x="-300" />
               <mxPoint x="-230" />
+              <mxPoint x="-230" y="-30" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -203,7 +204,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dh0dQZZecO0bPqkRILVr-52" value="Serving&lt;br&gt;资源缓存完毕，正在服务中" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="1920" width="140" height="140" as="geometry" />
+          <mxGeometry x="-220" y="1870" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="dh0dQZZecO0bPqkRILVr-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dh0dQZZecO0bPqkRILVr-59" target="S5eZa1ermERS1K-_M2My-1">
           <mxGeometry relative="1" as="geometry">
